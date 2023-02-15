@@ -3,7 +3,7 @@ import cors from 'cors';
 import express, {Request, Response, NextFunction} from 'express';
 import morgan from 'morgan';
 import config from './lib/config';
-import routes from '../routes/index';
+import routes from './routes/index';
 //-----------------------------------
 
 interface error {

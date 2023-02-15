@@ -1,8 +1,9 @@
 import {Response, Request, NextFunction, Router} from 'express';
-import { sequelize } from '../src/db';
-const {User} = sequelize.models
-const router = Router()
 
+
+import {  User } from '../models/User';
+const router = Router()
+console.log(User)
 router.get('/', (req: Request, res: Response, next: NextFunction) => {
     User.findAll()
      .then((users: any) => {

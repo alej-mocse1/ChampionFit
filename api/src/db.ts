@@ -1,4 +1,4 @@
-import {Sequelize} from 'sequelize-typescript';
+import {Sequelize} from 'sequelize-typescript';  
 import config from './lib/config';
 config;
 export const sequelize = new Sequelize({
@@ -9,3 +9,5 @@ export const sequelize = new Sequelize({
  storage: ':memory:',
  models: [__dirname + '/models'],
 });
+
+

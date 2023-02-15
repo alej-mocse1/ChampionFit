@@ -10,7 +10,7 @@ const config = {
  dbPort: process.env.DB_PORT ,
  dev: process.env.NODE_ENV !== 'production',
  port: process.env.API_PORT ,
- host: process.env.API_host,
+ host: process.env.API_HOST,
  cors: process.env.CORS ,
 };
 
