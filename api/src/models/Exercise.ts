@@ -1,7 +1,7 @@
 import {Model, Column, Table, CreatedAt, UpdatedAt, DataType} from 'sequelize-typescript';
 
 @Table
-export class Excercise extends Model<Excercise> {
+export class Exercise extends Model<Exercise> {
     @Column({
         type: DataType.STRING,
         defaultValue: DataType.UUIDV4,
