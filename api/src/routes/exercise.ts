@@ -49,6 +49,17 @@ router.put('/:id', async(req: Request, res: Response) => {
         res.status(404);
         console.error('ERROR: ', error);
     }
+});
+
+router.delete('/:id', async(req: Request, res: Response) => {
+    const {id} = req.params;
+    try {
+        const resp: string = await controller.deleteExercise(id);
+        res.status(200).send(resp);
+    } catch (error) {
+        res.status(404);
+        console.error('ERROR: ', error);
+    }
 })
 
 export default router;

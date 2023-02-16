@@ -31,5 +31,11 @@ export const controller = {
             }
         });
         return 'Exercise updated';
+    }, 
+    deleteExercise: async (id: string) => {
+        await Exercise.destroy({
+            where: {id: id}
+        });
+        return 'Exercise deleted';
     }
 }
