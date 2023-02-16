@@ -25,7 +25,7 @@ router.get('/:id', async(req: Request, res: Response) => {
         res.status(404);
         console.error('ERROR: ', error)
     }
-})
+});
 
 router.post('/', async(req: Request, res: Response) => {
     const param: Optional<Exercise, NullishPropertiesOf<Exercise>> = req.body;
@@ -33,7 +33,21 @@ router.post('/', async(req: Request, res: Response) => {
         const resp: ExerciseDB = await controller.postExercise(param);
         res.status(200).send(resp);
     } catch (error) {
-        
+        res.status(404);
+        console.error('ERROR: ', error);
+    }
+});
+
+router.put('/:id', async(req: Request, res: Response) => {
+    const { id } = req.params;
+    const { name, image, description, time } = req.body;
+    let update: ExerciseDB = {id, name, image, description, time};
+    try {
+        const resp: string = await controller.putExercise(update);
+        res.status(200).send(resp);
+    } catch (error) {
+        res.status(404);
+        console.error('ERROR: ', error);
     }
 })
 
