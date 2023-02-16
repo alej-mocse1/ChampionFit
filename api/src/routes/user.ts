@@ -1,8 +1,7 @@
 import {Response, Request , Router} from 'express';
 import { UserDB }  from '../interfaces';
 import {  User } from '../models/User';
-
-import { errorsDB } from './controllers/ErrorsDB'
+import { controllerDB } from './controllers/UsersDB';
 
 
 const router = Router()
@@ -15,7 +14,7 @@ router.get('/', async(req: Request, res: Response) => {
       res.send(resp)
 
      } catch (error) {
-      console.error("Se ha producido un error:", error);
+      console.error("occurred an error in the route: ", error);
      }
    });
 
@@ -24,16 +23,32 @@ router.get('/', async(req: Request, res: Response) => {
 //This route is the one that receives the HTTP_POST request to save the information of each user in a new record of the DB
  router.post('/', async (req: Request, res: Response) => {
    
-    try {
+     try {
       const addDB = req.body;
-      const checkErrors  = await errorsDB(addDB);
+      const checkErrors : UserDB  = await controllerDB.errorsDB(addDB);
+      console.log(checkErrors)
       const resp : UserDB = await User.create(addDB);
       res.send(resp)
 
    } catch (error) {
-    console.error("Se ha producido un error:", error);
+    console.error("occurred an error in the route: ", error);
    }
+ });
+
+
+   
+router.delete('/:id', async (req: Request, res: Response) => {
+   
+       try {
+        const { id } = req.params;
+        const resp : string = await controllerDB.DeleteUser(id);
+        res.send(resp);
+       
+     } catch (error) {
+      console.error("occurred an error in the route: ", error);
+     }
    });
+  
 
 
 export default router;
