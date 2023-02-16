@@ -5,9 +5,9 @@ import userRoutes from './user';
 const router = Router();
 
 
-//importamos y modularizamos todas la rutas
+//we import and modularize all the routes
 router.use('/user', userRoutes);
 
 
-//exportamos las rutas anteriores
+//we export the previous routes
 export default router;

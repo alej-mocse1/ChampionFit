@@ -4,6 +4,7 @@ import express, {Request, Response, NextFunction} from 'express';
 import morgan from 'morgan';
 import config from './lib/config';
 import routes from './routes/index';
+import bodyParser from 'body-parser';
 //-----------------------------------
 
 interface error {
@@ -12,6 +13,8 @@ interface error {
 }
 
 const app = express();
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 app.use('/api', routes);
 app.use(express.urlencoded({extended: true, limit: '50mb'})); //middleware
 app.use(express.json({limit: '50mb'}));
