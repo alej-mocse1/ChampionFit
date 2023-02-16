@@ -6,3 +6,9 @@ export  interface UserDB {
     email:string
   }
 
+export interface ExerciseDB {
+  name: string,
+  image: string,
+  description: string,
+  time: string
+  }
