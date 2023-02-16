@@ -16,6 +16,17 @@ router.get('/', async(req: Request, res: Response) => {
     }
 });
 
+router.get('/:id', async(req: Request, res: Response) => {
+    const {id} = req.params;
+    try {
+        const resp: ExerciseDB | null = await controller.getOneExercise(id);
+        res.status(200).send(resp);
+    } catch (error) {
+        res.status(404);
+        console.error('ERROR: ', error)
+    }
+})
+
 router.post('/', async(req: Request, res: Response) => {
     const param: Optional<Exercise, NullishPropertiesOf<Exercise>> = req.body;
     try {
