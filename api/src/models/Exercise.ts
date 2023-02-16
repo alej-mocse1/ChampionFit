@@ -1,6 +1,8 @@
 import {Model, Column, Table, CreatedAt, UpdatedAt, DataType} from 'sequelize-typescript';
 
-@Table
+@Table({
+    timestamps: false
+})
 export class Exercise extends Model<Exercise> {
     @Column({
         type: DataType.STRING,

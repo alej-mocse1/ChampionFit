@@ -7,6 +7,7 @@ export  interface UserDB {
   }
 
 export interface ExerciseDB {
+  id?: string,
   name: string,
   image: string,
   description: string,
