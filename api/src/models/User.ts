@@ -27,6 +27,7 @@ export class User extends Model<User> {
     })
     name!: string;
 
+
     @Column({
         type: DataType.STRING,
         allowNull: false,
@@ -41,9 +42,15 @@ export class User extends Model<User> {
         type: DataType.STRING,
         allowNull: false,
         validate:{
-            len: [4,60],
+            len: [4,75],
           }
     })
     email!: string;
 
+
+   @Column({
+    type:DataType.BOOLEAN,
+    allowNull: false
+   })
+   premiun!: boolean;
 }

@@ -1,5 +1,5 @@
 import {Response, Request , Router} from 'express';
-import { UserDB }  from '../interfaces';
+import { inputUserDB, outputUserDB }  from '../interfaces';
 import {  User } from '../models/User';
 import { controllerDB } from './controllers/UsersDB';
 
@@ -10,7 +10,7 @@ const router = Router()
 router.get('/', async(req: Request, res: Response) => {
 
      try {
-      const resp : UserDB[] = await User.findAll();
+      const resp : User[] = await User.findAll();
       res.send(resp)
 
      } catch (error) {
@@ -25,9 +25,8 @@ router.get('/', async(req: Request, res: Response) => {
    
      try {
       const addDB = req.body;
-      const checkErrors : UserDB  = await controllerDB.errorsDB(addDB);
-      console.log(checkErrors)
-      const resp : UserDB = await User.create(addDB);
+      const checkErrors : any  = await controllerDB.errorsDB(addDB);
+      const resp : outputUserDB = await User.create(checkErrors);
       res.send(resp)
 
    } catch (error) {
@@ -36,7 +35,7 @@ router.get('/', async(req: Request, res: Response) => {
  });
 
 
-   
+//This route is in charge of deleting users from the DB   
 router.delete('/:id', async (req: Request, res: Response) => {
    
        try {
@@ -49,6 +48,16 @@ router.delete('/:id', async (req: Request, res: Response) => {
      }
    });
   
-
+ 
+//This route is in charge of transforming users to premium
+router.put('/:id', async (req: Request, res: Response) => {
+   try {
+      const { id } = req.params;
+      const resp : string = await controllerDB.addPremiun(id)
+      res.send(resp)
+  } catch (error) {
+    console.error("occurred an error in the route: ", error);
+   }
+ })
 
 export default router;
