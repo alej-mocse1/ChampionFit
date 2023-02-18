@@ -1,0 +1,569 @@
+  {
+  "easy" : {
+      "day1":{
+         "exercise1":{
+          "name": "push ups",
+          "image": "https://saludgymyvida.com/wp-content/uploads/2022/07/Como-Hacer-Flexiones-Paso-a-Paso-Demostracion.gif",
+          "description": "Se colocan las cuatro extremidades en el suelo, con las manos separadas a una distancia mayor que la de los hombros. Se forma una línea recta entre los talones y los hombros y se contraen los abdominales lo más firmemente posible, manteniéndolos así durante toda la ejecución del ejercicio.",
+          "time": 4,
+          "cantidad": 12,
+          "repeticiones": 3
+         },
+         "exercise2":{
+          "name": "double width push ups",
+          "image": "http://www.ejercicios.org/images/flexion-con-los-brazos-abiertos.gif",
+          "description": "Se colocan las cuatro extremidades en el suelo, con las manos separadas a una distancia de 20 cm de los hombros. Se forma una línea recta entre los talones y los hombros y se contraen los abdominales lo más firmemente posible, manteniéndolos así durante toda la ejecución del ejercicio.",
+          "time": 4,
+          "cantidad": 8,
+          "repeticiones": 3
+         },
+         "exercise3":{
+          "name": "diamonds",
+          "image": "http://www.cutypaste.com/wp-content/uploads/2016/10/DiamondPushup.gif",
+          "description": "desde esta posición, tienes que juntar las manos para hacer un diamante con los dedos índice y pulgar. Esta es la posición superior. Si miras desde un lado, las manos deben estar debajo del pecho y los hombros en frente de las manos,",
+          "time": 3,
+          "cantidad": 7,
+          "repeticiones": 3
+         },
+         "exercise4":{
+          "name": "swooping push-ups",
+          "image": "https://i.pinimg.com/originals/d8/4c/e3/d84ce3448cc82ea9abe9ea7421bfc029.gif",
+          "description": "Debe alinearse en una línea recta (o casi recta) con la espalda. Con la pierna elevada, comienza tus flexiones en pica. Dobla los codos lejos del cuerpo en un ángulo de 45 grados hasta que tu cabeza toque el piso. Vuelve a empujarte lentamente a la posición inicial.",
+          "time": 3,
+          "cantidad": 6,
+          "repeticiones": 4
+         }
+      },
+      "day2":{
+        "exercise1":{
+          "name": "squats",
+          "image": "https://media.tenor.com/OI0eQbBWOYUAAAAC/sentadilla.gif",
+          "description": "Sitúate de pie con las piernas un poco separadas intentando mantener un buen equilibrio. Colócate con los pies hacia afuera de tal manera que no queden perpendiculares. Es importante que mantengas el tronco bien recto sin tensionar la espalda. Comienza el movimiento agachándote llevando los glúteos hacia atrás.",
+          "time": 4,
+          "cantidad": 12,
+          "repeticiones": 4
+         },
+         "exercise2":{
+          "name": "sentadilla búlgara",
+          "image": "https://10burpees.com/imagenes/sentadilla-bulgara.gif",
+          "description": "Colocamos el pie encima de la silla y, manteniendo el pecho alto, bajamos la rodilla al suelo mientras la otra pierna hace una flexión de 90 grados.",
+          "time": 4,
+          "cantidad": 10,
+          "repeticiones": 3
+         },
+         "exercise3":{
+          "name": "sentadilla dobles",
+          "image": "https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/U55BGWJHARCLPE63NE6AFW7CSA.gif",
+          "description": "Sitúate de pie con las piernas a la altura de los hombros intentando mantener un buen equilibrio,con un pequeño salto Siuate con las piernas a la altura de doble ancho de hombros",
+          "time": 4,
+          "cantidad": 10,
+          "repeticiones": 3
+         },
+         "exercise4":{
+          "name": "sentadilla push",
+          "image": "https://static.wixstatic.com/media/9a215c_b2a0378a6b7c41f5891884dcb8e8696f~mv2.gif",
+          "description": "Sitúate de pie con las piernas a la altura de los hombros intentando mantener un buen equilibrio,con un pequeño salto elevate y vuelve a caer en la misma posicion",
+          "time": 4,
+          "cantidad": 10,
+          "repeticiones": 3
+         }
+      },
+      "day3":{
+        "exercise1":{
+          "name": "normales",
+          "image": "https://4.bp.blogspot.com/-jquDVaUrVRs/WoshBheh37I/AAAAAAAAbH0/sEQAoT3iH1c0BIH8Oj_VuTvKo08ooL7EQCLcBGAs/s1600/step%2Bby%2Bstep%2Bexercises%2Babdominales%2Bcrunch.gif",
+          "description": "Coloca las manos en la cabeza para ayudarte a mantener el equilibrio. Si evitas colocarlas en la nuca no caerás en la tentación de forzar el cuello. Eleva el torso hacia las rodillas sin levantar la espalda completamente del suelo ni levantar los pies. Ejerce fuerza en los abdominales, evitando forzar otros músculos.",
+          "time": 3,
+          "cantidad": 14,
+          "repeticiones": 4
+         },
+         "exercise2":{
+          "name": "cruzados",
+          "image": "https://thumbs.gfycat.com/IlliterateTallIslandcanary-size_restricted.gif",
+          "description": "Coloca las manos en la cabeza para ayudarte a mantener el equilibrio. Si evitas colocarlas en la nuca no caerás en la tentación de forzar el cuello. Eleva el torso hacia las rodillas sin levantar la espalda completamente del suelo y levantando los pies de forma cruzada . Ejerce fuerza en los abdominales, evitando forzar otros músculos.",
+          "time": 3,
+          "cantidad": 10,
+          "repeticiones": 4
+         },
+         "exercise3":{
+          "name": "plancha",
+          "image": "https://www.lavanguardia.com/files/image_948_465/uploads/2021/06/18/60cc5fe9b6fe5.jpeg",
+          "description": "apoyar las rodillas en el suelo (preferiblemente sobre una alfombra), apoyar los antebrazos también sobre el suelo mientras mantienes la espalda totalmente recta e intentando mantener el core estable. Se recomienda mantener la posición entre 30 segundos y 1 minuto",
+          "time": 3,
+          "cantidad": 1,
+          "repeticiones": 3
+         },
+         "exercise4":{
+          "name": "L-Push ups",
+          "image": "https://www.dir.cat/blog/wp-content/uploads/2018/01/abdominal-inferior-elevacion-piernas.gif",
+          "description": " elevar las piernas, sin flexionar, y bajarlas lentamente hasta formar un ángulo de 45º entre las piernas y el suelo",
+          "time": 3,
+          "cantidad": 10,
+          "repeticiones": 3
+         }
+      },
+      "day4":{
+        "exercise1":{
+          "name": "push ups",
+          "image": "https://saludgymyvida.com/wp-content/uploads/2022/07/Como-Hacer-Flexiones-Paso-a-Paso-Demostracion.gif",
+          "description": "Se colocan las cuatro extremidades en el suelo, con las manos separadas a una distancia mayor que la de los hombros. Se forma una línea recta entre los talones y los hombros y se contraen los abdominales lo más firmemente posible, manteniéndolos así durante toda la ejecución del ejercicio.",
+          "time": 4,
+          "cantidad": 12,
+          "repeticiones": 3
+         },
+         "exercise2":{
+          "name": "double width push ups",
+          "image": "http://www.ejercicios.org/images/flexion-con-los-brazos-abiertos.gif",
+          "description": "Se colocan las cuatro extremidades en el suelo, con las manos separadas a una distancia de 20 cm de los hombros. Se forma una línea recta entre los talones y los hombros y se contraen los abdominales lo más firmemente posible, manteniéndolos así durante toda la ejecución del ejercicio.",
+          "time": 4,
+          "cantidad": 8,
+          "repeticiones": 3
+         },
+         "exercise3":{
+          "name": "diamonds",
+          "image": "http://www.cutypaste.com/wp-content/uploads/2016/10/DiamondPushup.gif",
+          "description": "desde esta posición, tienes que juntar las manos para hacer un diamante con los dedos índice y pulgar. Esta es la posición superior. Si miras desde un lado, las manos deben estar debajo del pecho y los hombros en frente de las manos,",
+          "time": 3,
+          "cantidad": 7,
+          "repeticiones": 3
+         },
+         "exercise4":{
+          "name": "swooping push-ups",
+          "image": "https://i.pinimg.com/originals/d8/4c/e3/d84ce3448cc82ea9abe9ea7421bfc029.gif",
+          "description": "Debe alinearse en una línea recta (o casi recta) con la espalda. Con la pierna elevada, comienza tus flexiones en pica. Dobla los codos lejos del cuerpo en un ángulo de 45 grados hasta que tu cabeza toque el piso. Vuelve a empujarte lentamente a la posición inicial.",
+          "time": 3,
+          "cantidad": 6,
+          "repeticiones": 4
+         }
+      },
+      "day5":{
+        "exercise1":{
+          "name": "squats",
+          "image": "https://media.tenor.com/OI0eQbBWOYUAAAAC/sentadilla.gif",
+          "description": "Sitúate de pie con las piernas un poco separadas intentando mantener un buen equilibrio. Colócate con los pies hacia afuera de tal manera que no queden perpendiculares. Es importante que mantengas el tronco bien recto sin tensionar la espalda. Comienza el movimiento agachándote llevando los glúteos hacia atrás.",
+          "time": 4,
+          "cantidad": 12,
+          "repeticiones": 4
+         },
+         "exercise2":{
+          "name": "sentadilla búlgara",
+          "image": "https://10burpees.com/imagenes/sentadilla-bulgara.gif",
+          "description": "Colocamos el pie encima de la silla y, manteniendo el pecho alto, bajamos la rodilla al suelo mientras la otra pierna hace una flexión de 90 grados.",
+          "time": 4,
+          "cantidad": 10,
+          "repeticiones": 3
+         },
+         "exercise3":{
+          "name": "sentadilla dobles",
+          "image": "https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/U55BGWJHARCLPE63NE6AFW7CSA.gif",
+          "description": "Sitúate de pie con las piernas a la altura de los hombros intentando mantener un buen equilibrio,con un pequeño salto Siuate con las piernas a la altura de doble ancho de hombros",
+          "time": 4,
+          "cantidad": 10,
+          "repeticiones": 3
+         },
+         "exercise4":{
+          "name": "sentadilla push",
+          "image": "https://static.wixstatic.com/media/9a215c_b2a0378a6b7c41f5891884dcb8e8696f~mv2.gif",
+          "description": "Sitúate de pie con las piernas a la altura de los hombros intentando mantener un buen equilibrio,con un pequeño salto elevate y vuelve a caer en la misma posicion",
+          "time": 4,
+          "cantidad": 10,
+          "repeticiones": 3
+         }
+      }   
+  },
+
+
+
+
+
+
+  "mid" : {
+    "day1":{
+        "exercise1":{
+          "name": "push ups",
+          "image": "https://saludgymyvida.com/wp-content/uploads/2022/07/Como-Hacer-Flexiones-Paso-a-Paso-Demostracion.gif",
+          "description": "Se colocan las cuatro extremidades en el suelo, con las manos separadas a una distancia mayor que la de los hombros. Se forma una línea recta entre los talones y los hombros y se contraen los abdominales lo más firmemente posible, manteniéndolos así durante toda la ejecución del ejercicio.",
+          "time": 3,
+          "cantidad": 15,
+          "repeticiones": 4
+         },
+         "exercise2":{
+          "name": "double width push ups",
+          "image": "http://www.ejercicios.org/images/flexion-con-los-brazos-abiertos.gif",
+          "description": "Se colocan las cuatro extremidades en el suelo, con las manos separadas a una distancia de 20 cm de los hombros. Se forma una línea recta entre los talones y los hombros y se contraen los abdominales lo más firmemente posible, manteniéndolos así durante toda la ejecución del ejercicio.",
+          "time": 3,
+          "cantidad": 10,
+          "repeticiones": 4
+         },
+         "exercise3":{
+          "name": "diamonds",
+          "image": "http://www.cutypaste.com/wp-content/uploads/2016/10/DiamondPushup.gif",
+          "description": "desde esta posición, tienes que juntar las manos para hacer un diamante con los dedos índice y pulgar. Esta es la posición superior. Si miras desde un lado, las manos deben estar debajo del pecho y los hombros en frente de las manos,",
+          "time": 3,
+          "cantidad": 10,
+          "repeticiones": 3
+         },
+         "exercise4":{
+          "name": "swooping push-ups",
+          "image": "https://i.pinimg.com/originals/d8/4c/e3/d84ce3448cc82ea9abe9ea7421bfc029.gif",
+          "description": "Debe alinearse en una línea recta (o casi recta) con la espalda. Con la pierna elevada, comienza tus flexiones en pica. Dobla los codos lejos del cuerpo en un ángulo de 45 grados hasta que tu cabeza toque el piso. Vuelve a empujarte lentamente a la posición inicial.",
+          "time": 3,
+          "cantidad": 9,
+          "repeticiones": 4
+         }
+    },
+    "day2":{
+      "exercise1":{
+        "name": "squats",
+        "image": "https://media.tenor.com/OI0eQbBWOYUAAAAC/sentadilla.gif",
+        "description": "Sitúate de pie con las piernas un poco separadas intentando mantener un buen equilibrio. Colócate con los pies hacia afuera de tal manera que no queden perpendiculares. Es importante que mantengas el tronco bien recto sin tensionar la espalda. Comienza el movimiento agachándote llevando los glúteos hacia atrás.",
+        "time": 3,
+        "cantidad": 14,
+        "repeticiones": 4
+       },
+       "exercise2":{
+        "name": "sentadilla búlgara",
+        "image": "https://10burpees.com/imagenes/sentadilla-bulgara.gif",
+        "description": "Colocamos el pie encima de la silla y, manteniendo el pecho alto, bajamos la rodilla al suelo mientras la otra pierna hace una flexión de 90 grados.",
+        "time": 3,
+        "cantidad": 12,
+        "repeticiones": 3
+       },
+       "exercise3":{
+        "name": "sentadilla dobles",
+        "image": "https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/U55BGWJHARCLPE63NE6AFW7CSA.gif",
+        "description": "Sitúate de pie con las piernas a la altura de los hombros intentando mantener un buen equilibrio,con un pequeño salto Siuate con las piernas a la altura de doble ancho de hombros",
+        "time": 3,
+        "cantidad": 12,
+        "repeticiones": 4
+       },
+       "exercise4":{
+        "name": "sentadilla push",
+        "image": "https://static.wixstatic.com/media/9a215c_b2a0378a6b7c41f5891884dcb8e8696f~mv2.gif",
+        "description": "Sitúate de pie con las piernas a la altura de los hombros intentando mantener un buen equilibrio,con un pequeño salto elevate y vuelve a caer en la misma posicion",
+        "time": 3,
+        "cantidad": 14,
+        "repeticiones": 3
+       }
+    },
+    "day3":{
+      "exercise1":{
+        "name": "normales",
+        "image": "https://4.bp.blogspot.com/-jquDVaUrVRs/WoshBheh37I/AAAAAAAAbH0/sEQAoT3iH1c0BIH8Oj_VuTvKo08ooL7EQCLcBGAs/s1600/step%2Bby%2Bstep%2Bexercises%2Babdominales%2Bcrunch.gif",
+        "description": "Coloca las manos en la cabeza para ayudarte a mantener el equilibrio. Si evitas colocarlas en la nuca no caerás en la tentación de forzar el cuello. Eleva el torso hacia las rodillas sin levantar la espalda completamente del suelo ni levantar los pies. Ejerce fuerza en los abdominales, evitando forzar otros músculos.",
+        "time": 2,
+        "cantidad": 16,
+        "repeticiones": 4
+       },
+       "exercise2":{
+        "name": "cruzados",
+        "image": "https://thumbs.gfycat.com/IlliterateTallIslandcanary-size_restricted.gif",
+        "description": "Coloca las manos en la cabeza para ayudarte a mantener el equilibrio. Si evitas colocarlas en la nuca no caerás en la tentación de forzar el cuello. Eleva el torso hacia las rodillas sin levantar la espalda completamente del suelo y levantando los pies de forma cruzada . Ejerce fuerza en los abdominales, evitando forzar otros músculos.",
+        "time": 2,
+        "cantidad": 12,
+        "repeticiones": 4
+       },
+       "exercise3":{
+        "name": "plancha",
+        "image": "https://www.lavanguardia.com/files/image_948_465/uploads/2021/06/18/60cc5fe9b6fe5.jpeg",
+        "description": "apoyar las rodillas en el suelo (preferiblemente sobre una alfombra), apoyar los antebrazos también sobre el suelo mientras mantienes la espalda totalmente recta e intentando mantener el core estable. Se recomienda mantener la posición entre 30 segundos y 1 minuto",
+        "time": 2,
+        "cantidad": 1,
+        "repeticiones": 3
+       },
+       "exercise4":{
+        "name": "L-Push ups",
+        "image": "https://www.dir.cat/blog/wp-content/uploads/2018/01/abdominal-inferior-elevacion-piernas.gif",
+        "description": " elevar las piernas, sin flexionar, y bajarlas lentamente hasta formar un ángulo de 45º entre las piernas y el suelo",
+        "time": 2,
+        "cantidad": 12,
+        "repeticiones": 3
+    }
+  },
+    "day4":{
+      "exercise1":{
+        "name": "push ups",
+        "image": "https://saludgymyvida.com/wp-content/uploads/2022/07/Como-Hacer-Flexiones-Paso-a-Paso-Demostracion.gif",
+        "description": "Se colocan las cuatro extremidades en el suelo, con las manos separadas a una distancia mayor que la de los hombros. Se forma una línea recta entre los talones y los hombros y se contraen los abdominales lo más firmemente posible, manteniéndolos así durante toda la ejecución del ejercicio.",
+        "time": 3,
+        "cantidad": 15,
+        "repeticiones": 4
+       },
+       "exercise2":{
+        "name": "double width push ups",
+        "image": "http://www.ejercicios.org/images/flexion-con-los-brazos-abiertos.gif",
+        "description": "Se colocan las cuatro extremidades en el suelo, con las manos separadas a una distancia de 20 cm de los hombros. Se forma una línea recta entre los talones y los hombros y se contraen los abdominales lo más firmemente posible, manteniéndolos así durante toda la ejecución del ejercicio.",
+        "time": 3,
+        "cantidad": 10,
+        "repeticiones": 4
+       },
+       "exercise3":{
+        "name": "diamonds",
+        "image": "http://www.cutypaste.com/wp-content/uploads/2016/10/DiamondPushup.gif",
+        "description": "desde esta posición, tienes que juntar las manos para hacer un diamante con los dedos índice y pulgar. Esta es la posición superior. Si miras desde un lado, las manos deben estar debajo del pecho y los hombros en frente de las manos,",
+        "time": 3,
+        "cantidad": 10,
+        "repeticiones": 3
+       },
+       "exercise4":{
+        "name": "swooping push-ups",
+        "image": "https://i.pinimg.com/originals/d8/4c/e3/d84ce3448cc82ea9abe9ea7421bfc029.gif",
+        "description": "Debe alinearse en una línea recta (o casi recta) con la espalda. Con la pierna elevada, comienza tus flexiones en pica. Dobla los codos lejos del cuerpo en un ángulo de 45 grados hasta que tu cabeza toque el piso. Vuelve a empujarte lentamente a la posición inicial.",
+        "time": 3,
+        "cantidad": 9,
+        "repeticiones": 4
+       }
+  },
+    "day5":{
+      "exercise1":{
+        "name": "squats",
+        "image": "https://media.tenor.com/OI0eQbBWOYUAAAAC/sentadilla.gif",
+        "description": "Sitúate de pie con las piernas un poco separadas intentando mantener un buen equilibrio. Colócate con los pies hacia afuera de tal manera que no queden perpendiculares. Es importante que mantengas el tronco bien recto sin tensionar la espalda. Comienza el movimiento agachándote llevando los glúteos hacia atrás.",
+        "time": 4,
+        "cantidad": 14,
+        "repeticiones": 4
+       },
+       "exercise2":{
+        "name": "sentadilla búlgara",
+        "image": "https://10burpees.com/imagenes/sentadilla-bulgara.gif",
+        "description": "Colocamos el pie encima de la silla y, manteniendo el pecho alto, bajamos la rodilla al suelo mientras la otra pierna hace una flexión de 90 grados.",
+        "time": 3,
+        "cantidad": 12,
+        "repeticiones": 3
+       },
+       "exercise3":{
+        "name": "sentadilla dobles",
+        "image": "https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/U55BGWJHARCLPE63NE6AFW7CSA.gif",
+        "description": "Sitúate de pie con las piernas a la altura de los hombros intentando mantener un buen equilibrio,con un pequeño salto Siuate con las piernas a la altura de doble ancho de hombros",
+        "time": 3,
+        "cantidad": 12,
+        "repeticiones": 4
+       },
+       "exercise4":{
+        "name": "sentadilla push",
+        "image": "https://static.wixstatic.com/media/9a215c_b2a0378a6b7c41f5891884dcb8e8696f~mv2.gif",
+        "description": "Sitúate de pie con las piernas a la altura de los hombros intentando mantener un buen equilibrio,con un pequeño salto elevate y vuelve a caer en la misma posicion",
+        "time": 3,
+        "cantidad": 14,
+        "repeticiones": 3
+       }
+    }
+  },
+
+
+
+
+
+
+
+
+  "hard": {
+     "day1":{
+      "exercise1":{
+        "name": "push ups",
+        "image": "https://saludgymyvida.com/wp-content/uploads/2022/07/Como-Hacer-Flexiones-Paso-a-Paso-Demostracion.gif",
+        "description": "Se colocan las cuatro extremidades en el suelo, con las manos separadas a una distancia mayor que la de los hombros. Se forma una línea recta entre los talones y los hombros y se contraen los abdominales lo más firmemente posible, manteniéndolos así durante toda la ejecución del ejercicio.",
+        "time": 2,
+        "cantidad": 28,
+        "repeticiones": 5
+       },
+       "exercise2":{
+        "name": "double width push ups",
+        "image": "http://www.ejercicios.org/images/flexion-con-los-brazos-abiertos.gif",
+        "description": "Se colocan las cuatro extremidades en el suelo, con las manos separadas a una distancia de 20 cm de los hombros. Se forma una línea recta entre los talones y los hombros y se contraen los abdominales lo más firmemente posible, manteniéndolos así durante toda la ejecución del ejercicio.",
+        "time": 2,
+        "cantidad": 12,
+        "repeticiones": 4
+       },
+       "exercise3":{
+        "name": "diamonds",
+        "image": "http://www.cutypaste.com/wp-content/uploads/2016/10/DiamondPushup.gif",
+        "description": "desde esta posición, tienes que juntar las manos para hacer un diamante con los dedos índice y pulgar. Esta es la posición superior. Si miras desde un lado, las manos deben estar debajo del pecho y los hombros en frente de las manos,",
+        "time": 2,
+        "cantidad": 15,
+        "repeticiones": 4
+       },
+       "exercise4":{
+        "name": "swooping push-ups",
+        "image": "https://i.pinimg.com/originals/d8/4c/e3/d84ce3448cc82ea9abe9ea7421bfc029.gif",
+        "description": "Debe alinearse en una línea recta (o casi recta) con la espalda. Con la pierna elevada, comienza tus flexiones en pica. Dobla los codos lejos del cuerpo en un ángulo de 45 grados hasta que tu cabeza toque el piso. Vuelve a empujarte lentamente a la posición inicial.",
+        "time": 2,
+        "cantidad": 12,
+        "repeticiones": 5
+       }
+  },
+  "day2":{
+    "exercise1":{
+      "name": "squats",
+      "image": "https://media.tenor.com/OI0eQbBWOYUAAAAC/sentadilla.gif",
+      "description": "Sitúate de pie con las piernas un poco separadas intentando mantener un buen equilibrio. Colócate con los pies hacia afuera de tal manera que no queden perpendiculares. Es importante que mantengas el tronco bien recto sin tensionar la espalda. Comienza el movimiento agachándote llevando los glúteos hacia atrás.",
+      "time": 2,
+      "cantidad": 18,
+      "repeticiones": 5
+     },
+     "exercise2":{
+      "name": "sentadilla búlgara",
+      "image": "https://10burpees.com/imagenes/sentadilla-bulgara.gif",
+      "description": "Colocamos el pie encima de la silla y, manteniendo el pecho alto, bajamos la rodilla al suelo mientras la otra pierna hace una flexión de 90 grados.",
+      "time": 2,
+      "cantidad": 15,
+      "repeticiones": 4
+     },
+     "exercise3":{
+      "name": "sentadilla dobles",
+      "image": "https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/U55BGWJHARCLPE63NE6AFW7CSA.gif",
+      "description": "Sitúate de pie con las piernas a la altura de los hombros intentando mantener un buen equilibrio,con un pequeño salto Siuate con las piernas a la altura de doble ancho de hombros",
+      "time": 2,
+      "cantidad": 14,
+      "repeticiones": 5
+     },
+     "exercise4":{
+      "name": "sentadilla push",
+      "image": "https://static.wixstatic.com/media/9a215c_b2a0378a6b7c41f5891884dcb8e8696f~mv2.gif",
+      "description": "Sitúate de pie con las piernas a la altura de los hombros intentando mantener un buen equilibrio,con un pequeño salto elevate y vuelve a caer en la misma posicion",
+      "time": 3,
+      "cantidad": 18,
+      "repeticiones": 5
+     }
+  },
+  "day3":{
+    "exercise1":{
+      "name": "normales",
+      "image": "https://4.bp.blogspot.com/-jquDVaUrVRs/WoshBheh37I/AAAAAAAAbH0/sEQAoT3iH1c0BIH8Oj_VuTvKo08ooL7EQCLcBGAs/s1600/step%2Bby%2Bstep%2Bexercises%2Babdominales%2Bcrunch.gif",
+      "description": "Coloca las manos en la cabeza para ayudarte a mantener el equilibrio. Si evitas colocarlas en la nuca no caerás en la tentación de forzar el cuello. Eleva el torso hacia las rodillas sin levantar la espalda completamente del suelo ni levantar los pies. Ejerce fuerza en los abdominales, evitando forzar otros músculos.",
+      "time": 2,
+      "cantidad": 18,
+      "repeticiones": 5
+     },
+     "exercise2":{
+      "name": "cruzados",
+      "image": "https://thumbs.gfycat.com/IlliterateTallIslandcanary-size_restricted.gif",
+      "description": "Coloca las manos en la cabeza para ayudarte a mantener el equilibrio. Si evitas colocarlas en la nuca no caerás en la tentación de forzar el cuello. Eleva el torso hacia las rodillas sin levantar la espalda completamente del suelo y levantando los pies de forma cruzada . Ejerce fuerza en los abdominales, evitando forzar otros músculos.",
+      "time": 2,
+      "cantidad": 14,
+      "repeticiones": 5
+     },
+     "exercise3":{
+      "name": "plancha",
+      "image": "https://www.lavanguardia.com/files/image_948_465/uploads/2021/06/18/60cc5fe9b6fe5.jpeg",
+      "description": "apoyar las rodillas en el suelo (preferiblemente sobre una alfombra), apoyar los antebrazos también sobre el suelo mientras mantienes la espalda totalmente recta e intentando mantener el core estable. Se recomienda mantener la posición entre 30 segundos y 1 minuto",
+      "time": 2,
+      "cantidad": 1,
+      "repeticiones": 4
+     },
+     "exercise4":{
+      "name": "L-Push ups",
+      "image": "https://www.dir.cat/blog/wp-content/uploads/2018/01/abdominal-inferior-elevacion-piernas.gif",
+      "description": " elevar las piernas, sin flexionar, y bajarlas lentamente hasta formar un ángulo de 45º entre las piernas y el suelo",
+      "time": 2,
+      "cantidad": 15,
+      "repeticiones": 4 
+    }
+  },
+    "day4":{
+      "exercise1":{
+        "name": "push ups",
+        "image": "https://saludgymyvida.com/wp-content/uploads/2022/07/Como-Hacer-Flexiones-Paso-a-Paso-Demostracion.gif",
+        "description": "Se colocan las cuatro extremidades en el suelo, con las manos separadas a una distancia mayor que la de los hombros. Se forma una línea recta entre los talones y los hombros y se contraen los abdominales lo más firmemente posible, manteniéndolos así durante toda la ejecución del ejercicio.",
+        "time": 2,
+        "cantidad": 28,
+        "repeticiones": 5
+       },
+       "exercise2":{
+        "name": "double width push ups",
+        "image": "http://www.ejercicios.org/images/flexion-con-los-brazos-abiertos.gif",
+        "description": "Se colocan las cuatro extremidades en el suelo, con las manos separadas a una distancia de 20 cm de los hombros. Se forma una línea recta entre los talones y los hombros y se contraen los abdominales lo más firmemente posible, manteniéndolos así durante toda la ejecución del ejercicio.",
+        "time": 2,
+        "cantidad": 12,
+        "repeticiones": 4
+       },
+       "exercise3":{
+        "name": "diamonds",
+        "image": "http://www.cutypaste.com/wp-content/uploads/2016/10/DiamondPushup.gif",
+        "description": "desde esta posición, tienes que juntar las manos para hacer un diamante con los dedos índice y pulgar. Esta es la posición superior. Si miras desde un lado, las manos deben estar debajo del pecho y los hombros en frente de las manos,",
+        "time": 2,
+        "cantidad": 15,
+        "repeticiones": 4
+       },
+       "exercise4":{
+        "name": "swooping push-ups",
+        "image": "https://i.pinimg.com/originals/d8/4c/e3/d84ce3448cc82ea9abe9ea7421bfc029.gif",
+        "description": "Debe alinearse en una línea recta (o casi recta) con la espalda. Con la pierna elevada, comienza tus flexiones en pica. Dobla los codos lejos del cuerpo en un ángulo de 45 grados hasta que tu cabeza toque el piso. Vuelve a empujarte lentamente a la posición inicial.",
+        "time": 2,
+        "cantidad": 12,
+        "repeticiones": 5
+       }
+  },
+    "day5":{
+      "exercise1":{
+        "name": "squats",
+        "image": "https://media.tenor.com/OI0eQbBWOYUAAAAC/sentadilla.gif",
+        "description": "Sitúate de pie con las piernas un poco separadas intentando mantener un buen equilibrio. Colócate con los pies hacia afuera de tal manera que no queden perpendiculares. Es importante que mantengas el tronco bien recto sin tensionar la espalda. Comienza el movimiento agachándote llevando los glúteos hacia atrás.",
+        "time": 2,
+        "cantidad": 18,
+        "repeticiones": 5
+       },
+       "exercise2":{
+        "name": "sentadilla búlgara",
+        "image": "https://10burpees.com/imagenes/sentadilla-bulgara.gif",
+        "description": "Colocamos el pie encima de la silla y, manteniendo el pecho alto, bajamos la rodilla al suelo mientras la otra pierna hace una flexión de 90 grados.",
+        "time": 2,
+        "cantidad": 15,
+        "repeticiones": 4
+       },
+       "exercise3":{
+        "name": "sentadilla dobles",
+        "image": "https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/U55BGWJHARCLPE63NE6AFW7CSA.gif",
+        "description": "Sitúate de pie con las piernas a la altura de los hombros intentando mantener un buen equilibrio,con un pequeño salto Siuate con las piernas a la altura de doble ancho de hombros",
+        "time": 2,
+        "cantidad": 14,
+        "repeticiones": 5
+       },
+       "exercise4":{
+        "name": "sentadilla push",
+        "image": "https://static.wixstatic.com/media/9a215c_b2a0378a6b7c41f5891884dcb8e8696f~mv2.gif",
+        "description": "Sitúate de pie con las piernas a la altura de los hombros intentando mantener un buen equilibrio,con un pequeño salto elevate y vuelve a caer en la misma posicion",
+        "time": 3,
+        "cantidad": 18,
+        "repeticiones": 5
+       }
+    }
+  },
+
+
+  
+  "premiun" : {
+    "day1":{
+      "name": "",
+      "image": "",
+      "description": "",
+      "time": ""
+    },
+    "day2":{
+      "name": "",
+      "image": "",
+      "description": "",
+      "time": ""
+    },
+    "day3":{
+      "name": "",
+      "image": "",
+      "description": "",
+      "time": ""
+    },
+    "day4":{
+      "name": "",
+      "image": "",
+      "description": "",
+      "time": ""
+    },
+    "day5":{
+      "name": "",
+      "image": "",
+      "description": "",
+      "time": ""
+      }
+    }
+  }
+ 
+

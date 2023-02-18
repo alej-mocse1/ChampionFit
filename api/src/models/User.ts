@@ -1,4 +1,4 @@
-import {Model, Column, Table, CreatedAt, UpdatedAt, DataType, IsEmail} from 'sequelize-typescript';
+import {Model, Column, Table, DataType} from 'sequelize-typescript';
 
 
 
@@ -48,9 +48,11 @@ export class User extends Model<User> {
     email!: string;
 
 
-   @Column({
-    type:DataType.BOOLEAN,
-    allowNull: false
-   })
+    @Column({
+        type:DataType.BOOLEAN,
+         allowNull: false
+    })
    premiun!: boolean;
+
+
 }

@@ -4,6 +4,8 @@ import { Exercise } from 'models/Exercise';
 import { Optional, UnknownConstraintError } from 'sequelize';
 import { NullishPropertiesOf } from 'sequelize/types/utils';
 import  {controller}  from './controllers/Exercise';
+
+
 const router = Router();
 
 router.get('/', async(req: Request, res: Response) => {
