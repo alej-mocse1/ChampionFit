@@ -24,7 +24,7 @@ router.get('/', async(req: Request, res: Response) => {
  router.post('/', async (req: Request, res: Response) => {
    
      try {
-      const addDB = req.body;
+      const addDB: inputUserDB = req.body;
       const checkErrors : any  = await controllerDB.errorsDB(addDB);
       const resp : outputUserDB = await User.create(checkErrors);
       res.send(resp)
@@ -51,6 +51,7 @@ router.delete('/:id', async (req: Request, res: Response) => {
  
 //This route is in charge of transforming users to premium
 router.put('/:id', async (req: Request, res: Response) => {
+
    try {
       const { id } = req.params;
       const resp : string = await controllerDB.addPremiun(id)
