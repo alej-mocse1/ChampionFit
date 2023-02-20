@@ -1,41 +1,53 @@
 import { Optional, where } from "sequelize";
 import { NullishPropertiesOf } from "sequelize/types/utils";
-import { ExerciseDB } from "../../interfaces";
-import { Exercise } from "../../models/Exercise";
+import { ExerciseType } from "../../interfaces";
+const ExerciceDB = require('../ExerciceDB.json');
 
 export const controller = {
-    getAllExercise: async () => {
-        const allExercise: ExerciseDB[] = await Exercise.findAll();
-        return allExercise
+
+
+    getAllExerciseEasy:  () => {
+
+    const resp : {}[] = []
+
+    resp.push(ExerciceDB.easy.day1)
+    resp.push(ExerciceDB.easy.day2)
+    resp.push(ExerciceDB.easy.day3)
+    resp.push(ExerciceDB.easy.day4)
+    resp.push(ExerciceDB.easy.day5)
+
+    return resp
+     
     },
-    getOneExercise: async (id: string) => {
-        const exercise: ExerciseDB | null = await Exercise.findOne({
-            where: {id: id}
-    });
-    return exercise;
+
+    getAllExerciseMid:  () => {
+
+    const resp2: {}[] = []
+    
+    resp2.push(ExerciceDB.mid.day1)
+    resp2.push(ExerciceDB.mid.day2)
+    resp2.push(ExerciceDB.mid.day3)
+    resp2.push(ExerciceDB.mid.day4)
+    resp2.push(ExerciceDB.mid.day5)
+    
+    console.log(resp2)
+    return resp2
     },
-    postExercise: async (param: Optional<Exercise, NullishPropertiesOf<Exercise>>) => {
-        const createExercise: ExerciseDB = await Exercise.create(param);
-        return createExercise;
-    },
-    putExercise: async (param: ExerciseDB) => {
-        await Exercise.update({
-            name: param.name,
-            image: param.image,
-            description: param.description,
-            time: param.time
-        },
-        {
-            where: {
-                id: param.id
-            }
-        });
-        return 'Exercise updated';
-    }, 
-    deleteExercise: async (id: string) => {
-        await Exercise.destroy({
-            where: {id: id}
-        });
-        return 'Exercise deleted';
+
+        
+    getAllExerciseHard:  () => {
+
+    const resp3: {}[] = []
+        
+    resp3.push(ExerciceDB.hard.day1)
+    resp3.push(ExerciceDB.hard.day2)
+    resp3.push(ExerciceDB.hard.day3)
+    resp3.push(ExerciceDB.hard.day4)
+    resp3.push(ExerciceDB.hard.day5)
+        
+    return resp3
+             
     }
+        
+
 }

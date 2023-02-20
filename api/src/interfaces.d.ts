@@ -15,10 +15,11 @@ export  interface outputUserDB {
   }
 
 
-export interface ExerciseDB {
-  id?: string,
+export interface ExerciseType {
   name: string,
   image: string,
   description: string,
-  time: string
+  time: number,
+  cantidad:number,
+  repeticiones:number
   }
