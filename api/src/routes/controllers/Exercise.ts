@@ -1,14 +1,15 @@
-import { Optional, where } from "sequelize";
-import { NullishPropertiesOf } from "sequelize/types/utils";
-import { ExerciseType } from "../../interfaces";
+// import { Optional, where } from "sequelize";
+// import { NullishPropertiesOf } from "sequelize/types/utils";
+// import { ExerciseType } from "../../interfaces";
 const ExerciceDB = require('../ExerciceDB.json');
+import { ObjExcerciseTYPE } from '../../interfaces';
 
 export const controller = {
 
 
-    getAllExerciseEasy:  () => {
+    getAllExerciseEasy:  () : ObjExcerciseTYPE[] => {
 
-    const resp : {}[] = []
+    const resp = []
 
     resp.push(ExerciceDB.easy.day1)
     resp.push(ExerciceDB.easy.day2)
@@ -20,9 +21,9 @@ export const controller = {
      
     },
 
-    getAllExerciseMid:  () => {
+    getAllExerciseMid:  () : ObjExcerciseTYPE[]  => {
 
-    const resp2: {}[] = []
+    const resp2 = []
     
     resp2.push(ExerciceDB.mid.day1)
     resp2.push(ExerciceDB.mid.day2)
@@ -35,9 +36,9 @@ export const controller = {
     },
 
         
-    getAllExerciseHard:  () => {
+    getAllExerciseHard:  () : ObjExcerciseTYPE[]  => {
 
-    const resp3: {}[] = []
+    const resp3 = []
         
     resp3.push(ExerciceDB.hard.day1)
     resp3.push(ExerciceDB.hard.day2)
