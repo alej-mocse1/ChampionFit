@@ -23,3 +23,12 @@ export interface ExerciseType {
   cantidad:number,
   repeticiones:number
   }
+
+
+export interface ObjExcerciseTYPE {
+  exercise1:ExerciseType,
+  exercise2:ExerciseType,
+  exercise3:ExerciseType,
+  exercise4:ExerciseType
+}
+
