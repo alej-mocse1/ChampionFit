@@ -390,6 +390,14 @@
         "time": 2,
         "cantidad": 12,
         "repeticiones": 5
+       },
+       "exercise5":{
+        "name": "fondo de triceps",
+        "image": "https://cdn.upsocl.com/wp-content/uploads/2013/08/sept-06-2016-14-45-30.gif",
+        "description": "Coloca las manos encima del banco, plataforma o silla a la anchura de los hombros., Empieza el movimiento inspirando y flexionando los codos para descender la parte superior del cuerpo hacia el suelo, intentando llegar con los brazos a un ángulo recto de 90º",
+        "time": 2,
+        "cantidad": 10,
+        "repeticiones": 4
        }
   },
   "day2":{
@@ -424,7 +432,16 @@
       "time": 3,
       "cantidad": 18,
       "repeticiones": 5
+     },
+      "exercise5":{
+      "name": "sentadilla lateral",
+      "image": "https://i.pinimg.com/originals/df/bd/ce/dfbdce64ee8c7be47627291c3a4356d4.gif",
+      "description": "Pon las manos en la cintura y haz una retracción escapular para estar más estable. Lleva todo el peso hacia una de las piernas. Flexionando la cadera y rodilla de ese lado y dejando la otra completamente estirada. Debes de cargar la mayor parte del peso en el glúteo",
+      "time": 3,
+      "cantidad": 12,
+      "repeticiones": 4
      }
+
   },
   "day3":{
     "exercise1":{
@@ -455,6 +472,14 @@
       "name": "L-Push ups",
       "image": "https://www.dir.cat/blog/wp-content/uploads/2018/01/abdominal-inferior-elevacion-piernas.gif",
       "description": " elevar las piernas, sin flexionar, y bajarlas lentamente hasta formar un ángulo de 45º entre las piernas y el suelo",
+      "time": 2,
+      "cantidad": 15,
+      "repeticiones": 4 
+    },
+    "exercise5":{
+      "name": "Abdominales con piernas verticales",
+      "image": "https://www.dir.cat/blog/wp-content/uploads/2018/01/abdominal-inferior-elevacion-piernas.gif",
+      "description": " Para ello nos colocaremos boca arriba con las piernas elevadas, formando un ángulo de 90 grados con la espalda. La espalda estará apoyada por completo en el suelo, y los brazos los abriremos en cruz a cada uno de los lados. La vista estará al frente para que la cabeza permanezca alineada con la espalda, sin que la inclinemos hacia adelante y corramos el riesgo de hacernos daño en las cervicales." ,
       "time": 2,
       "cantidad": 15,
       "repeticiones": 4 
@@ -492,6 +517,14 @@
         "time": 2,
         "cantidad": 12,
         "repeticiones": 5
+       },
+       "exercise5":{
+        "name": "fondo de triceps",
+        "image": "https://cdn.upsocl.com/wp-content/uploads/2013/08/sept-06-2016-14-45-30.gif",
+        "description": "Coloca las manos encima del banco, plataforma o silla a la anchura de los hombros., Empieza el movimiento inspirando y flexionando los codos para descender la parte superior del cuerpo hacia el suelo, intentando llegar con los brazos a un ángulo recto de 90º",
+        "time": 2,
+        "cantidad": 10,
+        "repeticiones": 4
        }
   },
     "day5":{
@@ -526,6 +559,14 @@
         "time": 3,
         "cantidad": 18,
         "repeticiones": 5
+       },
+      "exercise5":{
+        "name": "sentadilla lateral",
+        "image": "https://i.pinimg.com/originals/df/bd/ce/dfbdce64ee8c7be47627291c3a4356d4.gif",
+        "description": "Pon las manos en la cintura y haz una retracción escapular para estar más estable. Lleva todo el peso hacia una de las piernas. Flexionando la cadera y rodilla de ese lado y dejando la otra completamente estirada. Debes de cargar la mayor parte del peso en el glúteo",
+        "time": 3,
+        "cantidad": 12,
+        "repeticiones": 4
        }
     }
   },
