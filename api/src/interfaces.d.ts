@@ -19,9 +19,9 @@ export interface ExerciseType {
   name: string,
   image: string,
   description: string,
-  time: number,
+  time: Number,
   cantidad:number,
-  repeticiones:number
+  repeticiones:number,
   }
 
 
