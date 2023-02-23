@@ -3,8 +3,6 @@ import { Text, View, Image , StyleSheet } from 'react-native';
 import  authForm from './AuthForm/authForm';
 
 
-
-
 const Home = () => {
   return (
     <View >
