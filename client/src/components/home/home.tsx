@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text, View, Image , StyleSheet } from 'react-native';
+import Weeks from './weeks';
 
-
-const Home = () :JSX.Element => {
+const Home = () => {
   
   return (
     <View style={styles.View1} >
@@ -21,19 +21,17 @@ const Home = () :JSX.Element => {
           <View  style={styles.viewReady}>
            <Text style={styles.text}>Ready?</Text>
           </View>
+      
+     </View>
 
-          <View >
-           <Text >aca van los links a las diferentes semanas</Text>
-          </View>
-
-       </View>
+       <Weeks></Weeks>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   View1:{
-marginTop:160
+marginTop:260
   },
   Conteiner:{
     flex: 1,
@@ -42,7 +40,7 @@ marginTop:160
    ConteinerView:{
     flex: 1,
     alignItems: 'center' ,
-    marginTop:-370
+    marginTop:-200
    },
   img: {
    height:200,
@@ -55,13 +53,15 @@ marginTop:160
    Viewphrase:{
     backgroundColor: '#2B2E47',
     height:70,
-    width:300
+    width:300,
+    marginBottom:70
    },
    phrase:{
     fontSize: 47,
     fontWeight: "900",
     color: 'white',
-    marginLeft:35
+    marginLeft:58,
+    marginTop:4
    },
    viewReady:{
     marginTop:40,
