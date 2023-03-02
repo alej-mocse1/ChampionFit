@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import  AuthForm  from './src/components/AuthForm/AuthForm';
+import { StyleSheet, View } from 'react-native';
+// import  Home  from './src/components/home'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <AuthForm />
+      {/* <Home/> */}
       <StatusBar style="auto" />
     </View>
   );
@@ -14,8 +14,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // backgroundColor: '#fff',
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
 });
