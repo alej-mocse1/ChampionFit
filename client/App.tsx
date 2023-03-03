@@ -6,13 +6,14 @@ import Weeks2 from './src/components/Weeks/weeks2';
 import Weeks3 from './src/components/Weeks/weeks3';
 import Weeks4 from './src/components/Weeks/weeks4';
 import { StatusBar } from 'expo-status-bar';
-
-
-
+import {Auth0Provider} from 'react-native-auth0';
 
 
 export default function App() {
   return (
+    <Auth0Provider 
+    domain={`${process.env.DOMAIN}`} 
+    clientId={`${process.env.CLIENT_ID}`}>
     <View style={styles.container}>
       <NativeRouter>
          <StatusBar style="auto" />
@@ -40,16 +41,16 @@ export default function App() {
 
     
     </NativeRouter>
-      
     </View>
+    </Auth0Provider>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // backgroundColor: '#fff',
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
 });
