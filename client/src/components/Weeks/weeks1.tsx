@@ -19,7 +19,7 @@ const Weeks1 = (): JSX.Element  => {
      </View>
 
        <View style={styles.viewDays}>
-         <Text style={styles.text}>day 1 </Text>
+         <Text style={styles.text}>day 1</Text>
          <Text style={styles.text}>day 2 </Text>
          <Text style={styles.text}>day 3 </Text>
          <Text style={styles.text}>day 4 </Text>
