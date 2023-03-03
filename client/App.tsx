@@ -11,10 +11,10 @@ import {Auth0Provider} from 'react-native-auth0';
 
 export default function App() {
   return (
-    <Auth0Provider 
-    domain={`${process.env.DOMAIN}`} 
-    clientId={`${process.env.CLIENT_ID}`}>
-    <View style={styles.container}>
+     <Auth0Provider 
+     domain={`${process.env.DOMAIN}`} 
+     clientId={`${process.env.CLIENT_ID}`}>
+     <View style={styles.container}>
       <NativeRouter>
          <StatusBar style="auto" />
 
@@ -42,15 +42,15 @@ export default function App() {
     
     </NativeRouter>
     </View>
-    </Auth0Provider>
+   </Auth0Provider>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: '#fff',
-    // alignItems: 'center',
-    // justifyContent: 'center',
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
