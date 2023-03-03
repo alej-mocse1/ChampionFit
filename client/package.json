@@ -19,7 +19,7 @@
     "react-native": "0.70.5",
     "react-native-auth0": "^2.17.1",
     "react-native-web": "~0.18.9",
-    "react-router-native": "^6.8.2"
+    "react-router-native": "5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

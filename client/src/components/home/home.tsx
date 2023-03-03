@@ -19,7 +19,7 @@ const Home = () => {
            </View>
 
           <View  style={styles.viewReady}>
-           <Text style={styles.text}>Ready?</Text>
+           <Text style={styles.textReady}>Ready?</Text>
           </View>
       
      </View>
@@ -46,6 +46,10 @@ marginTop:260
    height:200,
    width:200
   },
+  textReady:{
+    fontSize: 47,
+    fontWeight: "900"
+  },
   text: {
     fontSize: 32,
     fontWeight: "800"
@@ -54,10 +58,10 @@ marginTop:260
     backgroundColor: '#2B2E47',
     height:70,
     width:300,
-    marginBottom:70
+    marginBottom:52
    },
    phrase:{
-    fontSize: 47,
+    fontSize: 48,
     fontWeight: "900",
     color: 'white',
     marginLeft:58,
