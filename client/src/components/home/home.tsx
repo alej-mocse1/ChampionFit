@@ -1,5 +1,8 @@
 import React from 'react';
 import { Text, View, Image , StyleSheet } from 'react-native';
+import { LoginButton } from '../Auth0/LoginButton';
+import { LogoutButton } from '../Auth0/LogoutButton';
+import { Profile } from '../Auth0/Profile';
 import Weeks from './weeks';
 
 const Home = () => {
@@ -21,7 +24,11 @@ const Home = () => {
           <View  style={styles.viewReady}>
            <Text style={styles.text}>Ready?</Text>
           </View>
+
+          <Profile />
       
+      <LoginButton />
+      <LogoutButton />
      </View>
 
        <Weeks></Weeks>

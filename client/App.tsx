@@ -9,11 +9,13 @@ import { StatusBar } from 'expo-status-bar';
 import {Auth0Provider} from 'react-native-auth0';
 
 
+
 export default function App() {
   return (
     <Auth0Provider 
-    domain={`${process.env.DOMAIN}`} 
-    clientId={`${process.env.CLIENT_ID}`}>
+    domain={'dev-8h8kspbxbki6dnin.us.auth0.com'} 
+    clientId={'oSmCN5vobbMhla78S3l2yRVWdwuSz0yn'}>
+    
     <View style={styles.container}>
       <NativeRouter>
          <StatusBar style="auto" />
