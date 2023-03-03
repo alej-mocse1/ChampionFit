@@ -1,6 +1,7 @@
 import React from 'react';
-import { Text , View , StyleSheet } from 'react-native';
-import { Link } from 'react-router-native';
+import { Text , View , StyleSheet, TouchableWithoutFeedback  } from 'react-native';
+import { Link  } from 'react-router-native';
+
 
 
 const Weeks = (): JSX.Element  => {
@@ -8,26 +9,34 @@ const Weeks = (): JSX.Element  => {
    return(
     <View style={styles.Conteiner}>
       
-      <Link to={'/weeks1'}>
-        <Text style={styles.text}>WEEK 1 </Text>
-     </Link>
+  <View style={styles.border}>
+    <Link to={'/weeks1'}  component={TouchableWithoutFeedback} >
+        <Text style={styles.text}>WEEK 1</Text>
+    </Link>
+  </View>
 
-     <Link to={'/weeks2'}>
+    <View style={styles.border}>
+     <Link to={'/weeks2'} component={TouchableWithoutFeedback}>
         <Text style={styles.text}>WEEK 2 </Text>
      </Link>
+    </View>
 
-     <Link to={'/weeks3'}>
+     <View style={styles.border}>
+      <Link to={'/weeks3'} component={TouchableWithoutFeedback}>
         <Text style={styles.text}>WEEK 3 </Text>
-     </Link>
+      </Link>
+     </View>
 
-     <Link to={'/weeks4'}>
+      <View style={styles.border}>
+       <Link to={'/weeks4'} component={TouchableWithoutFeedback}>
         <Text style={styles.text}>WEEK 4 </Text>
-     </Link>
+       </Link>
+      </View>
+
 
     </View>
    )
 }
-
 
 
 
@@ -36,6 +45,11 @@ Conteiner:{
  flex: 1,
  alignItems: 'center' ,    
  marginTop:9
+},
+border:{
+    borderBottomWidth: 6,
+    borderBottomColor: 'aqua',
+    padding:3
 },
 text: {
  fontSize: 26,
